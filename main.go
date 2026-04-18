@@ -20,12 +20,13 @@ func main() {
 		baht := input.Floor()
 		satang := input.Sub(baht).Mul(decimal.NewFromInt(100))
 
+		// ทำการ print ผลลัพธ์
 		var result string
 		if satang.IsZero() {
 			result = convert.Convert(baht) + "บาทถ้วน"
 		} else {
 			result = convert.Convert(baht) + "บาท" + convert.Convert(satang) + "สตางค์"
 		}
-		fmt.Println("Output:", result)
+		fmt.Println(result)
 	}
 }

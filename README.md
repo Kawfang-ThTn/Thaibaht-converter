@@ -1,10 +1,10 @@
 # Thaibaht-converter
 
-This project is a Go-based solution for converting decimal currency values into Thai Baht text format. [cite_start]It is designed with a focus on accuracy, reusability, and professional project structure, intended for integration into financial services.
+This project is a Go-based solution for converting decimal currency values into Thai Baht text format. It is designed with a focus on accuracy, reusability, and professional project structure, intended for integration into financial services.
 
 ## Features
-- [cite_start]**Accurate Conversion**: Converts `shopspring/decimal` values to Thai text without floating-point errors.
-- [cite_start]**Standard Compliant**: Correctly handles "บาทถ้วน" (Baht Thuan) for whole numbers and "สตางค์" (Satang) for decimals.
+- **Accurate Conversion**: Converts `shopspring/decimal` values to Thai text without floating-point errors.
+- **Standard Compliant**: Correctly handles "บาทถ้วน" (Baht Thuan) for whole numbers and "สตางค์" (Satang) for decimals.
 - **Production Ready**: Organizes logic into an internal package to prevent unintended external access and ensure maintainability.
 
 ## Project Structure
